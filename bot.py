@@ -46,11 +46,11 @@ ADB = r"C:\LDPlayer\LDPlayer14\adb.exe"   # adb.exe do LDPlayer 14
 DISPOSITIVO = "emulator-5554"    # veja o nome em "adb devices" (instância 0 = emulator-5554)
 PASTA = Path(sys.executable).parent if getattr(sys, 'frozen', False) else Path(__file__).parent    # pasta do bot (prints antigos ficam aqui)
 PASTA_IMAGENS = PASTA / "imagens_adb"  # prints extras só para o ADB (opcional)
-CONFIANCA = 0.8           # 0 a 1. Se não achar a imagem, diminua (ex.: 0.7)
+CONFIANCA = 0.75          # 0 a 1. Se não achar a imagem, diminua (ex.: 0.7)
 CONFIANCA_DERROTA = 0.85  # com escala automática, a derrota casa um pouco menos que antes.
                           # Suba (0.9) se parar à toa; baixe (0.8) se não parar numa derrota.
 ESCALA_PASSO = 0.05       # passo entre as escalas testadas nos prints
-ESCALAS_POR_MODO = {"adb": (0.3, 2.0), "tela": (0.6, 1.5)}  # (mínima, máxima) de cada modo
+ESCALAS_POR_MODO = {"adb": (0.5, 2.0), "tela": (0.6, 1.5)}  # (mínima, máxima) de cada modo
 INTERVALO = 1.0           # segundos entre cada verificação
 PAUSA_APOS_CLIQUE = 2     # segundos de espera depois de um toque
 VICTORY_CLICAR_REPETIDO = False  # False = 1 toque por aparição da tela Victory
