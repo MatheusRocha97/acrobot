@@ -1,13 +1,12 @@
 {
-  "versao": 1,
+  "versao": 2,
   "arquivos": {
-    "bot.py": "35ce8efbb3d084be42ae324fe5724d7cf43af083c2676ff5ba7139629d61a42a",
-    "derrota.png.png": "675e1984286b9e857b79a65ac6fe9de9b87a517a12cc72424bdb65f058e79382",
-    "imagens_adb/batalhar.png": "0cc00b448949a78b18f568ddc60160fbe2870375ea2d46a7a368e5eec66aaa71",
-    "imagens_adb/batalhar_5.png": "22e1953b127f40192aafe953a99395908e549059a0fa863aff0bcc645f9103d4",
-    "imagens_adb/jogar_novamente.png": "97ba24c96f71a4d5936c8506f25b4b253f73659fdad2d1119a7075d7868605be",
-    "imagens_adb/level_up.png": "4aee0f08fe668bb43e2a14b4a10e5cf3368b2cd5802ee33cc102945e4056d15b",
-    "imagens_adb/Victory.png": "edd44c7356772ac0a34456bd5c9f9f1243d43b717073060c121d58c229ef9774",
-    "imagens_adb/vitoria.png": "1ea119e277a7fbe350530665fd34b4dc80e7834f1443769e493fbfe5f348e0c3"
+    "bot.py": "5300565bc780f7a43f73bdaa0cfdb9c8e23da7a3f5d1b3dfdb1c3e6f8db7844d",
+    "Victory.png": "edd44c7356772ac0a34456bd5c9f9f1243d43b717073060c121d58c229ef9774",
+    "batalhar.png": "0cc00b448949a78b18f568ddc60160fbe2870375ea2d46a7a368e5eec66aaa71",
+    "batalhar_5.png": "22e1953b127f40192aafe953a99395908e549059a0fa863aff0bcc645f9103d4",
+    "jogar_novamente.png": "97ba24c96f71a4d5936c8506f25b4b253f73659fdad2d1119a7075d7868605be",
+    "level_up.png": "4aee0f08fe668bb43e2a14b4a10e5cf3368b2cd5802ee33cc102945e4056d15b",
+    "vitoria.png": "1ea119e277a7fbe350530665fd34b4dc80e7834f1443769e493fbfe5f348e0c3"
   }
 }
