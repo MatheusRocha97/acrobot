@@ -1,0 +1,27 @@
+name: Gerar versao
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'bot.py'
+      - '*.png'
+      - 'imagens_adb/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  versao:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar versao.json
+        run: python3 gerar_versao.py
+      - name: Salvar versao.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add versao.json
+          git diff --staged --quiet || (git commit -m "Atualiza versao.json" && git push)
